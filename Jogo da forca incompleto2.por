@@ -36,15 +36,21 @@ cadeia j[50], j2[50]
 				 			{
 				 				j2[i] = t2
 				 			}
-	
 				 		
 						} 
 
-				 		
+				 		se(j2[i] == j[i])
+				 		{
+				 				flag = 0
+				 			escreva("Ganhou")
+				 			pare
+				 		}
 				
 				 	}
-						se(flag == 0) 
-							{
+
+				 	
+						
+							/*{
 								escreva("A letra não esta na palavra\n")
 								escreva("----------\n")
 								escreva("|        |\n")
@@ -54,13 +60,14 @@ cadeia j[50], j2[50]
 								escreva("|\n")
 
 								pare
-				 	 		}
+				 	 		}*/
 						
 				 						 
 					
 				}
 	}
 }
+
 // Ideia tentar usar verdadeiro ou falso ao inves da flag, fazendo com que quando a pessoa digitar uma letra errada se torne falso e jogue ela para o desenha da focar
 // Se ela acertar continua verdadeiro e ela continuando falando as letras
 // tentar adicionar tentativas
